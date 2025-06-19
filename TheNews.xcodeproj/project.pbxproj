@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -55,7 +55,7 @@
 		65883ADB24744FF800C1A55A /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65883ADA24744FF800C1A55A /* NotificationCenter.framework */; };
 		65883ADE24744FF800C1A55A /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65883ADD24744FF800C1A55A /* TodayViewController.swift */; };
 		65883AE124744FF800C1A55A /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65883ADF24744FF800C1A55A /* MainInterface.storyboard */; };
-		65883AE524744FF800C1A55A /* Today.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 65883AD824744FF800C1A55A /* Today.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		65883AE524744FF800C1A55A /* Today.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 65883AD824744FF800C1A55A /* Today.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		65883AEE247487BC00C1A55A /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65215EDE24438F08008B4D5A /* ImageDownloader.swift */; };
 		6590EC412589300A00FCB10F /* WashingtonPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6590EC402589300A00FCB10F /* WashingtonPostCell.swift */; };
 		6590EC4B2589309200FCB10F /* WashingtonPostHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6590EC4A2589309200FCB10F /* WashingtonPostHandler.swift */; };
@@ -123,15 +123,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		65883AE624744FF800C1A55A /* Embed App Extensions */ = {
+		65883AE624744FF800C1A55A /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				65883AE524744FF800C1A55A /* Today.appex in Embed App Extensions */,
+				65883AE524744FF800C1A55A /* Today.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -173,7 +173,7 @@
 		655C96FD258E5E7D00095493 /* AppleNewsCellLarge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleNewsCellLarge.swift; sourceTree = "<group>"; };
 		655C9707258E5E9E00095493 /* AppleNewsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleNewsHandler.swift; sourceTree = "<group>"; };
 		655C9711258E657400095493 /* AppleNewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleNewsCell.swift; sourceTree = "<group>"; };
-		6560AE4D24411C4A00581008 /* TheNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6560AE4D24411C4A00581008 /* eeTamilNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eeTamilNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6560AE5024411C4A00581008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6560AE5224411C4A00581008 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6560AE5924411C4C00581008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -408,7 +408,7 @@
 		6560AE4E24411C4A00581008 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6560AE4D24411C4A00581008 /* TheNews.app */,
+				6560AE4D24411C4A00581008 /* eeTamilNews.app */,
 				65F36886245684B000A8C398 /* TheNews.tvos.app */,
 				659438FB245A1F4400F92AD8 /* TheNewsTests.xctest */,
 				65883AD824744FF800C1A55A /* Today.appex */,
@@ -656,7 +656,7 @@
 				6560AE4924411C4A00581008 /* Sources */,
 				6560AE4A24411C4A00581008 /* Frameworks */,
 				6560AE4B24411C4A00581008 /* Resources */,
-				65883AE624744FF800C1A55A /* Embed App Extensions */,
+				65883AE624744FF800C1A55A /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -665,7 +665,7 @@
 			);
 			name = TheNews;
 			productName = TheNews;
-			productReference = 6560AE4D24411C4A00581008 /* TheNews.app */;
+			productReference = 6560AE4D24411C4A00581008 /* eeTamilNews.app */;
 			productType = "com.apple.product-type.application";
 		};
 		65883AD724744FF800C1A55A /* Today */ = {
@@ -726,8 +726,9 @@
 		6560AE4524411C4A00581008 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1640;
 				ORGANIZATIONNAME = dk;
 				TargetAttributes = {
 					6560AE4C24411C4A00581008 = {
@@ -989,6 +990,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -999,6 +1001,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1049,6 +1052,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1059,6 +1063,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1080,17 +1085,18 @@
 		6560AE6224411C4C00581008 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SCTP2PJRK8;
 				INFOPLIST_FILE = TheNews/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = eeTamilNews;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dk.TheNews;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = net.eetamil;
+				PRODUCT_NAME = eeTamilNews;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1099,17 +1105,20 @@
 		6560AE6324411C4C00581008 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SCTP2PJRK8;
 				INFOPLIST_FILE = TheNews/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = eeTamilNews;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dk.TheNews;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = net.eetamil;
+				PRODUCT_NAME = eeTamilNews;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1119,6 +1128,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SCTP2PJRK8;
 				INFOPLIST_FILE = Today/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1126,7 +1136,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dk.TheNews.Today;
+				PRODUCT_BUNDLE_IDENTIFIER = net.eetamil.Today;
 				PRODUCT_NAME = Today;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1138,6 +1148,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SCTP2PJRK8;
 				INFOPLIST_FILE = Today/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1145,7 +1156,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dk.TheNews.Today;
+				PRODUCT_BUNDLE_IDENTIFIER = net.eetamil.Today;
 				PRODUCT_NAME = Today;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
