@@ -60,35 +60,22 @@
 		6590EC412589300A00FCB10F /* WashingtonPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6590EC402589300A00FCB10F /* WashingtonPostCell.swift */; };
 		6590EC4B2589309200FCB10F /* WashingtonPostHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6590EC4A2589309200FCB10F /* WashingtonPostHandler.swift */; };
 		659438FE245A1F4400F92AD8 /* TheNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659438FD245A1F4400F92AD8 /* TheNewsTests.swift */; };
-		65943907245A331A00F92AD8 /* TvTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65943906245A331A00F92AD8 /* TvTabBarController.swift */; };
 		65A01C53258BD4FA007565AB /* NBCNewsCellLarge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A01C52258BD4FA007565AB /* NBCNewsCellLarge.swift */; };
 		65A01C59258BD50A007565AB /* NBCNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A01C58258BD50A007565AB /* NBCNewsCell.swift */; };
 		65A01C5F258BD51E007565AB /* NBCNewsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A01C5E258BD51E007565AB /* NBCNewsHandler.swift */; };
 		65A79AB8277BD5D800505313 /* CashAppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A79AB7277BD5D800505313 /* CashAppCell.swift */; };
 		65A79ABA277BD60500505313 /* CashAppHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A79AB9277BD60500505313 /* CashAppHandler.swift */; };
 		65C3837625872490008F1411 /* NewsApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C383742587248F008F1411 /* NewsApiModel.swift */; };
-		65C3837725872490008F1411 /* NewsApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C383742587248F008F1411 /* NewsApiModel.swift */; };
 		65C3837825872490008F1411 /* NewsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C383752587248F008F1411 /* NewsApi.swift */; };
-		65C3837925872490008F1411 /* NewsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C383752587248F008F1411 /* NewsApi.swift */; };
 		65C3838A258724CF008F1411 /* NewsApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C383742587248F008F1411 /* NewsApiModel.swift */; };
 		65C3838F258724D2008F1411 /* NewsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C383752587248F008F1411 /* NewsApi.swift */; };
 		65C3839D2587255B008F1411 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C383992587255A008F1411 /* Extension.swift */; };
-		65C3839E2587255B008F1411 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C383992587255A008F1411 /* Extension.swift */; };
 		65C3839F2587255B008F1411 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C3839A2587255B008F1411 /* Settings.swift */; };
 		65C383AA2587257E008F1411 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C383992587255A008F1411 /* Extension.swift */; };
 		65C383B025872597008F1411 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C383AF25872597008F1411 /* UserDefault.swift */; };
-		65C383B125872597008F1411 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C383AF25872597008F1411 /* UserDefault.swift */; };
 		65C383B225872597008F1411 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C383AF25872597008F1411 /* UserDefault.swift */; };
 		65D47D9D25941149009701BB /* FacebookNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D47D9C25941149009701BB /* FacebookNewsCell.swift */; };
 		65D47DA725941163009701BB /* FacebookNewsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D47DA625941163009701BB /* FacebookNewsHandler.swift */; };
-		65F36889245684B000A8C398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F36888245684B000A8C398 /* AppDelegate.swift */; };
-		65F3688B245684B000A8C398 /* TvViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F3688A245684B000A8C398 /* TvViewController.swift */; };
-		65F36892245684B500A8C398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F36891245684B500A8C398 /* Assets.xcassets */; };
-		65F36895245684B500A8C398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F36893245684B500A8C398 /* LaunchScreen.storyboard */; };
-		65F3689E2457940400A8C398 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65215EDE24438F08008B4D5A /* ImageDownloader.swift */; };
-		65F368A02457DD0800A8C398 /* TvNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F3689F2457DD0800A8C398 /* TvNewsCell.swift */; };
-		65F368A224588D8300A8C398 /* InsetLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F368A124588D8300A8C398 /* InsetLabel.swift */; };
-		65F368A42458952E00A8C398 /* TvExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F368A32458952E00A8C398 /* TvExtension.swift */; };
 		D7044E2D2AD7635C00D5EC4A /* ArtifactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7044E2B2AD7635C00D5EC4A /* ArtifactCell.swift */; };
 		D7044E2E2AD7635C00D5EC4A /* ArtifactHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7044E2C2AD7635C00D5EC4A /* ArtifactHandler.swift */; };
 		D74AB4E62D6AA5CE008DF432 /* ParticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74AB4E42D6AA5CE008DF432 /* ParticleCell.swift */; };
@@ -207,7 +194,6 @@
 		65C383AF25872597008F1411 /* UserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
 		65D47D9C25941149009701BB /* FacebookNewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookNewsCell.swift; sourceTree = "<group>"; };
 		65D47DA625941163009701BB /* FacebookNewsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookNewsHandler.swift; sourceTree = "<group>"; };
-		65F36886245684B000A8C398 /* TheNews.tvos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheNews.tvos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F36888245684B000A8C398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65F3688A245684B000A8C398 /* TvViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvViewController.swift; sourceTree = "<group>"; };
 		65F36891245684B500A8C398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -249,13 +235,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		659438F8245A1F4400F92AD8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65F36883245684B000A8C398 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -409,7 +388,6 @@
 			isa = PBXGroup;
 			children = (
 				6560AE4D24411C4A00581008 /* eeTamilNews.app */,
-				65F36886245684B000A8C398 /* TheNews.tvos.app */,
 				659438FB245A1F4400F92AD8 /* TheNewsTests.xctest */,
 				65883AD824744FF800C1A55A /* Today.appex */,
 			);
@@ -703,23 +681,6 @@
 			productReference = 659438FB245A1F4400F92AD8 /* TheNewsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		65F36885245684B000A8C398 /* TheNews.tvos */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 65F36897245684B500A8C398 /* Build configuration list for PBXNativeTarget "TheNews.tvos" */;
-			buildPhases = (
-				65F36882245684B000A8C398 /* Sources */,
-				65F36883245684B000A8C398 /* Frameworks */,
-				65F36884245684B000A8C398 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TheNews.tvos;
-			productName = TheNews.tvos;
-			productReference = 65F36886245684B000A8C398 /* TheNews.tvos.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -741,9 +702,6 @@
 						CreatedOnToolsVersion = 11.4;
 						TestTargetID = 6560AE4C24411C4A00581008;
 					};
-					65F36885245684B000A8C398 = {
-						CreatedOnToolsVersion = 11.4;
-					};
 				};
 			};
 			buildConfigurationList = 6560AE4824411C4A00581008 /* Build configuration list for PBXProject "TheNews" */;
@@ -760,7 +718,6 @@
 			projectRoot = "";
 			targets = (
 				6560AE4C24411C4A00581008 /* TheNews */,
-				65F36885245684B000A8C398 /* TheNews.tvos */,
 				659438FA245A1F4400F92AD8 /* TheNewsTests */,
 				65883AD724744FF800C1A55A /* Today */,
 			);
@@ -789,15 +746,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65F36884245684B000A8C398 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				65F36895245684B500A8C398 /* LaunchScreen.storyboard in Resources */,
-				65F36892245684B500A8C398 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -900,24 +848,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				659438FE245A1F4400F92AD8 /* TheNewsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65F36882245684B000A8C398 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				65C383B125872597008F1411 /* UserDefault.swift in Sources */,
-				65F368A224588D8300A8C398 /* InsetLabel.swift in Sources */,
-				65943907245A331A00F92AD8 /* TvTabBarController.swift in Sources */,
-				65F368A02457DD0800A8C398 /* TvNewsCell.swift in Sources */,
-				65F3689E2457940400A8C398 /* ImageDownloader.swift in Sources */,
-				65F36889245684B000A8C398 /* AppDelegate.swift in Sources */,
-				65F3688B245684B000A8C398 /* TvViewController.swift in Sources */,
-				65C3839E2587255B008F1411 /* Extension.swift in Sources */,
-				65C3837725872490008F1411 /* NewsApiModel.swift in Sources */,
-				65C3837925872490008F1411 /* NewsApi.swift in Sources */,
-				65F368A42458952E00A8C398 /* TvExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1169,6 +1099,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SCTP2PJRK8;
 				INFOPLIST_FILE = TheNewsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1176,7 +1107,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dk.TheNewsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.eetamil.TheNewsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1189,6 +1120,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SCTP2PJRK8;
 				INFOPLIST_FILE = TheNewsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1196,49 +1128,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dk.TheNewsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.eetamil.TheNewsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheNews.app/TheNews";
-			};
-			name = Release;
-		};
-		65F36898245684B500A8C398 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TheNews.tvos/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dk.TheNews-tvos";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 13;
-			};
-			name = Debug;
-		};
-		65F36899245684B500A8C398 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TheNews.tvos/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dk.TheNews-tvos";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 13;
 			};
 			name = Release;
 		};
@@ -1277,15 +1171,6 @@
 			buildConfigurations = (
 				65943902245A1F4400F92AD8 /* Debug */,
 				65943903245A1F4400F92AD8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		65F36897245684B500A8C398 /* Build configuration list for PBXNativeTarget "TheNews.tvos" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				65F36898245684B500A8C398 /* Debug */,
-				65F36899245684B500A8C398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
